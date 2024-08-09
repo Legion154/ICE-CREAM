@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* CSS - HEADER */
+
+header {
+    padding: 10px 185px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Fredoka", sans-serif;
+    background-color: #ffeff5;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    font-weight: 400;
+    color: #767676;
+}
+
+header ul :first-child {
+}
+
+header div {
+    display: flex;
+    align-items: center;
+}
+
+
+.btn {
+    padding: 15px 50px;
+    color: #FFFFFF;
+    background-color: #D23166;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* CSS - MAIN 1 */
+
+.main1 {
+    padding: 25px 70px 12px 185px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Fredoka", sans-serif;
+    background-color: #ffeff5;
+    gap: 45px;
+}
+
+.main1 .part-first {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.part-first h4 {
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+.part-first h1 {
+    width: 95%;
+    font-size: 55px;
+}
+
+.part-first h1 span {
+    color: #D23166;
+}
+
+.part-first p {
+    color: #767676;
+    line-height: 25px;
+    width: 95%;
+    font-size: 20px;
+}
+
+.part-second {
+    position: relative;
+}
+
+.part-second :last-child {
+    position: absolute;
+    z-index: 10;
+    left: -210px;
+    bottom: -140px;
+    width: 140%;
+}
+
+
+/* CSS - MAIN 2 */
+
+.main2 {
+    padding: 70px 185px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 45px;
+    font-family: "Fredoka", sans-serif;
+}
+
+.main2 .card {
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 50px 0px #00000008;
+}
+
+.card h4 {
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card p {
+    margin-top: 12px;
+    color: #767676;
+}
+
+/* CSS - MAIN 3 */
+
+.main3 {
+    padding: 0 185px;
+    background-color: #ffeff5;
+    font-family: "Fredoka", sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main3 .part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.main3 .part1 h1 {
+    font-size: 35px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.main3 .part1 p {
+    color: #767676;
+    line-height: 24px;
+    width: 80%;
+}
+
+/* CSS - MAIN 4 */
+
+.main4 {
+    padding: 70px 185px;
+    font-family: "Fredoka", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.main4 .part1 {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.part1 h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.part1 ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color: #767676;
+}
+
+.main4 .part2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.part2 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.part2 p {
+    color: #767676;
+    line-height: 23px;
+    width: 85%;
+}
+
+.part2 .price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+    font-weight: 400;
+    margin: 18px 0 13px 0;
+}
+
+.part2 .price h3 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.part2 .price h4 {
+    color: #767676;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*  */
+
+.main4 .part3 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+}
+
+.part3 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.part3 p {
+    color: #767676;
+    line-height: 23px;
+    width: 85%;
+}
+
+.part3 .price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+    font-weight: 400;
+    margin: 18px 0 13px 0;
+}
+
+.part3 .price h3 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.part3 .price h4 {
+    color: #767676;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*  */
+
+.main4 .part4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.part4 h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.part4 p {
+    color: #767676;
+    line-height: 23px;
+    width: 85%;
+}
+
+.part4 .price {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 10px;
+    font-weight: 400;
+    margin: 18px 0 13px 0;
+}
+
+.part4 .price h3 {
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.part4 .price h4 {
+    color: #767676;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/*  */
+
+.main4 .part5 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.part5 div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.part5 .list1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.list1 div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.list1 div h4 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.list1 div span {
+    color: #090909;
+    font-size: 15px;
+}
+
+.part5 div p {
+    color: #767676;
+    width: 75%;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.part5 div p :first-child {
+    color: #F6762C;
+    font-size: 30px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.part5 div p :last-child {
+    color: #F6762C;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.main4 div .list2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.main4 div .list2 {
+    font-size: 20px;
+    color: #D23166;
+}
+
+/* CSS - MAIN 5 */
+
+.main5 {
+    padding: 70px 185px 160px 185px;
+    background-color: #F8EDF0;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+.main5 .part1 img {
+    position: absolute;
+    top: 70px;
+}
+
+.main5 .part2 {
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.part2 h2 {
+    font-size: 40px;
+}
+
+.part2 p {
+    color: #090909;
+    width: 80%;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.part2 .opportunities {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.opportunities img {
+    padding: 9px 9px;
+    border-radius: 10px;
+    background-image: url(./main5/background.svg);
+}
+.opportunities div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.part2 .button {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 35px;
+}
+
+.button1 .btn1 {
+    padding: 8px 35px 8px 10px;
+    background-color: #090909;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.button1 .btn1 .span :first-child {
+    font-size: 10px;
+}
+
+.button1 .btn1 .span :last-child {
+    font-size: 20px;
+}
+
+.button2 .btn2 {
+    padding: 8px 35px 8px 10px;
+    background-color: #090909;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    border-radius: 5px;
+    gap: 10px;
+}
+
+.span {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+}
+
+/* CSS - MAIN 6 */
+
+.main6 {
+    padding: 170px 185px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.main6 h2 {
+    text-align: center;
+    font-size: 40px;
+    width: 40%;
+    line-height: 50px;
+}
+
+.main6 .div1 {
+    padding: 5px 45px;
+    width: 95%;
+    height: 70px;
+    background-color: #f9f9f9;
+    color: #767676;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.main6 .div2 {
+    padding: 5px 15px;
+    width: 17%;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #D23166;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.main6 .submit {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* CSS - MAIN 7 */
+
+.main7 {
+    padding: 70px 185px;
+    font-family: "Roboto", sans-serif;
+    background-color: #090909;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.main7 .part1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.part1 p {
+    color: #767676;
+    width: 300px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.part1 h4 {
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.part2 ul  {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    color: #767676;
+    margin: 100px 0 0 30px;
+}
+
+.part2 ul :first-child {
+    color: #FFFFFF;
+}
+
+.part3 ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    color: #FFFFFF;
+    margin: 100px 0 0 130px;
+}
+
+/* -------------------HOVER---------------- */
+
+header ul li:hover {
+    cursor: pointer;
+    color: #D23166;
+    font-weight: 600;
+    scale: 110%;
+}
